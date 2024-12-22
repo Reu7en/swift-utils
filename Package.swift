@@ -26,10 +26,6 @@ let package = Package(
         .testTarget(
             name: "CoreUtilsTests",
             dependencies: ["CoreUtils"]
-        ),
-        .testTarget(
-            name: "UIUtilsTests",
-            dependencies: ["UIUtils"]
         )
     ]
 )
